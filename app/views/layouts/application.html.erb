@@ -7,6 +7,39 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= yield %>
+  <div class='main container'>
+    <div class='ui piled segment'>
+      <%= yield %>
+      <br>
+      <table style="width: 100%;">
+        <tbody>
+          <tr>
+            <td><a href="http://www.woodfloors.org"><img src="http://www.cia4services.com/images/logo_nwfa.gif" border="0" alt="" width="134" height="47"></a></td>
+            <td>
+            <div><a href="http://www.fallschurchchamber.org"><img src="http://www.cia4services.com/images/logo_gfccc.gif" border="0" alt="" width="176" height="49"></a></div>
+            </td>
+            <td>
+            <div><a href="http://www.mcleanchamber.org/"><img src="http://www.cia4services.com/images/logo_gmcc.gif" border="0" alt="" width="106" height="51"></a></div>
+            </td>
+            <td>
+            <div><a href="http://www.iicrc.org/"><img src="http://www.cia4services.com/images/logo_iir.gif" border="0" alt="" width="210" height="51"></a></div>
+            </td>
+          </tr>
+          <tr>
+          <td colspan="4" height="18">
+          <div><span style="font-family: Arial,Helvetica,sans-serif; font-size: xx-small;">Designed and maintained by: <a href="http://www.verisolvtech.com">VeriSolv Technologies, Inc.</a>&nbsp;&nbsp;
+          <script type="text/javascript"><!--
+            var today = new Date()
+            var year = today.getYear()
+            if(year<1000) year+=1900
+          document.write("Copyright &copy; 2004 - " + year + ".")
+          // --></script>Copyright © 2004 - 2015.
+          &nbsp;&nbsp;All Rights Reserved.<br> </span></div>
+          </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>
